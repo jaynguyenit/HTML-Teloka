@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/login.css">
+</head>
+<body>
+	<div class="wrap-page">
+	    <div class="simple-header text-center">
+	        <a href="#">
+	            <img src="assets/images/teloka-logo.svg" alt="logo">
+	        </a>
+	    </div>
+	    <div class="wrap-login-form">
+	        <div class="login-nav">
+	            <div class="login-nav__item">
+	                <a href="login.html">Login</a>
+	            </div>
+	            <div class="login-nav__item active">
+	                <a href="signup.html">Signup</a>
+	            </div>
+	        </div>
+	        <div class="login-form">
+	            <form action="/" method="POST">
+	                <div class="field field--text"><!--add class .field--invalid to display Error -->
+	                    <input id="first-name" type="text" name="first-name" required> 
+	                    <label for="first-name">First Name</label>
+	                    <span class="field__error">First Name is required.</span>
+	                </div>
+	                <div class="field field--text">
+	                    <input id="last-name" type="text" name="last-name"> 
+	                    <label for="last-name">Last Name (Optional)</label>
+	                    <span class="field__error">Last Name is required.</span>
+	                </div>
+	                <div class="field field--text">
+	                    <input id="email" type="email" name="email" required> 
+	                    <label for="email">Email</label>
+	                    <span class="field__error">Email is required.</span>
+	                </div>
+	                <div class="field field--text">
+	                    <input id="password" type="password" name="password" required> 
+	                    <label for="password">Password</label>
+	                    <span class="icon-password"></span>
+	                    <span class="field__error">Password is required.</span>
+	                </div>
+	                <div class="field field--text">
+	                    <input id="retype-password" type="password" name="retype-password" required> 
+	                    <label for="retype-password">Retype New Password</label>
+	                    <span class="icon-password"></span>
+	                    <span class="field__error">Retype New Password is required.</span>
+	                </div>
+	                <div class="field field--text">
+	                    <input id="voucher-code" type="text" name="voucher-code" required> 
+	                    <label for="voucher-code">Referral or voucher code</label>
+  	                </div>
+	                <div class="login-form__bottom">
+	                    <div class="login-form__bottom-left">
+	                        <div class="remember-me-field">
+	                            <input type="checkbox" name="remember-me" checked>
+	                            <span class="custom-toggle-icon"></span>
+	                        </div>
+	                        I'd like to receive promotional emails.
+	                    </div>
+	                </div>
+	                <button type="button" class="login-btn">LOG IN</button>
+	            </form>
+	            <h5>OR LOG IN WITH</h5>
+	            <div class="login-social-items">
+	                <a href="" class="login-social__item login-social__item--apple">
+	                    <img src="assets/images/apple-icon.svg">
+	                </a>
+	                <a href="" class="login-social__item login-social__item--fb">
+	                    <img src="assets/images/fb-icon.svg">
+	                </a>
+	                <a href="" class="login-social__item login-social__item--gmail">
+	                    <img src="assets/images/gmail-icon.svg">
+	                </a>
+	                <a href="" class="login-social__item login-social__item--x">
+	                    <img src="assets/images/x-icon.svg">
+	                </a>
+	            </div>
+	            <div class="form-bottom-text">
+	            	By registering, you agree to our <a>Terms & Conditions</a> and <a>Privacy Policy</a>. Do note that we will not share your personal information with anyone outside of our company, and we hate spam too, so you'll never get spam emails from us.
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<footer class="footer">
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-3 left-footer">
+						<div class="logo_footer">
+							<a href="#">
+								<img src="./assets/images/logo.svg" alt="">
+							</a>
+						</div>
+						<p>Teloka is the world’s eSIM store that solves the pain of high roaming bills by giving you access to 200+ eSIMs (digital SIM cards) globally at affordable prices.</p>
+					</div>
+					<div class="col-7 right-footer">
+						<div class="footer-block">
+							<span class="linkTitle">Popular Countries</span>
+							<ul>
+								<li><a href="#">United States</a></li>
+								<li><a href="#">United Kingdom</a></li>
+								<li><a href="#">Turkey</a></li>
+								<li><a href="#">Thailand</a></li>
+								<li><a href="#">France</a></li>
+								<li><a href="#">Japan</a></li>
+								<li><a href="#">United Arab Emirates</a></li>
+								<li><a href="#">India</a></li>
+								<li><a href="#">Italy</a></li>
+								<li><a href="#">Spain</a></li>
+							</ul>
+						</div>
+						<div class="footer-block">
+							<span class="linkTitle">Partner with Us</span>
+							<ul>
+								<li><a href="#">Affiliate Partners</a></li>
+								<li><a href="#">API Partners</a></li>
+							</ul>
+						</div>
+						<div class="footer-block">
+							<span class="linkTitle">About Us</span>
+							<ul>
+								<li><a href="#">About Teloka</a></li>
+								<li><a href="#">About eSIM</a></li>
+							</ul>
+						</div>
+						<div class="footer-block">
+							<span class="linkTitle">More Info</span>
+							<ul>
+								<li><a href="#">Help Center</a></li>
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Blog</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-10 footer-bottom">
+						<div class="footer-bottom-left">
+							<span class="copyright">@2024 Teloka</span>
+							<ul class="nav-footer">
+								<li>
+									<a href="#">privacy & cookie policy</a>
+								</li>
+								<li>
+									<a href="#">terms & conditions</a>
+								</li>
+							</ul>
+							<div class="footer-item-language">
+								<span class="icon-language"></span>
+								<span class="nav-item-text">English</span>
+							</div>
+						</div>
+						<div class="footer-social">
+							<ul>
+								<li class="">
+									<a href="#">
+										<img src="./assets/images/fb-icon.svg" alt="">
+									</a>
+								</li>
+								<li class="">
+									<a href="#">
+										<img src="./assets/images/ins-icon.svg" alt="">
+									</a>
+								</li>
+								<li class="">
+									<a href="#">
+										<img src="./assets/images/yt-icon.svg" alt="">
+									</a>
+								</li>
+								<li class="">
+									<a href="#">
+										<img src="./assets/images/tiktok-svg.svg" alt="">
+									</a>
+								</li>
+								<li class="">
+									<a href="#">
+										<img src="./assets/images/wa-svg.svg" alt="">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-payment-methods-container">
+			<img src="./assets/images/visa.svg" alt="">
+		</div>
+	</footer>
+</body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+</html>
