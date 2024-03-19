@@ -104,12 +104,12 @@
 				Stay connected, wherever you travel,</br> at affordable rates
 			</h1>
 			<p class="form-description">Our eSIMs are trusted by over 5,000,000 people </br>worldwide</p>
-			<div class="main-form">
+			<form class="main-form">
 				<div class="search-container">
 					<span class="icon-search"></span>
-					<input  type="text" placeholder="Search data packs for 200+ country and ..." value="" class="inp-search">
+					<input id="search" type="text" placeholder="Search data packs for 200+ country and ..." value="" class="inp-search">
 				</div>
-			</div>
+			</form>
 			<div class="bottom-form">
 				<div class="btn-search btn-by-country ">eSIMs by Country</div>
 				<div class="btn-search btn-by-regional active">eSIMs by Regional</div>
@@ -587,12 +587,7 @@
 		<div class="container">
 			<div class="data-option-main">
 				<h2 class="title-block text-center">See more data options</h2>
-				<select name="" id="">
-					<option value="">Select Your Package ...</option>
-					<option value="1">1</option>
-					<option value="1">2</option>
-					<option value="1">3</option>
-				</select>
+				<div class="select-package">Select Your Package ...</div>
 				<img src="./assets/images/data-option.svg" alt="">
 				<p class="bottom-data-option">
 					Teloka is the world’s eSIM store that solves the pain of high roaming bills by giving you access to 200+ eSIMs (digital SIM cards) 
@@ -986,5 +981,128 @@
 			<img src="./assets/images/visa.svg" alt="">
 		</div>
 	</footer>
+	<div class="supported-countries-modal popup">
+		<div class="popup-container">
+			<div class="countries-modal_top">
+				<div class="close"></div>
+				<h3>Coverage For Africa eSIM</h3>
+				<form action="">
+					<span class="icon-search"></span>
+					<input type="text" id="search-coverage" placeholder="Search for your country">
+				</form>
+			</div>
+			<ul class="list-countries">
+				<li class="item">
+					<img src="./assets/images/Afghanistan.png" alt="">
+					<span class="name">VietNam</span>
+				</li>
+				<li class="item">
+					<img src="./assets/images/Afghanistan.png" alt="">
+					<span class="name">China</span>
+				</li>
+				<li class="item">
+					<img src="./assets/images/Afghanistan.png" alt="">
+					<span class="name">Australia</span>
+				</li>
+				<li class="item">
+					<img src="./assets/images/Afghanistan.png" alt="">
+					<span class="name">Australia</span>
+				</li>
+				<li class="item">
+					<img src="./assets/images/Afghanistan.png" alt="">
+					<span class="name">Australia</span>
+				</li>
+				<li class="item">
+					<img src="./assets/images/Afghanistan.png" alt="">
+					<span class="name">Australia</span>
+				</li>
+				<li class="item">
+					<img src="./assets/images/Afghanistan.png" alt="">
+					<span class="name">Australia</span>
+				</li>
+				<li class="item">
+					<img src="./assets/images/Afghanistan.png" alt="">
+					<span class="name">Australia</span>
+				</li>
+				<li class="item">
+					<img src="./assets/images/Afghanistan.png" alt="">
+					<span class="name">Australia</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="select-package-modal popup">
+		<div class="popup-container">
+			<div class="package-modal_top">
+				<div class="close"></div>
+				<h3><img src="./assets/images/asia.png" alt=""><span>Africa eSIM</span></h3>
+				<p>Show all 60 Pack Data Opition</p>
+				<form action="">
+					<label>filter:</label>
+					<select name="validity" id="validity-package">
+						<option value="">validity</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+					<select name="data" id="data-package">
+						<option value="">Data</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</form>
+			</div>
+			<ul class="list-items-data">
+				<li class="item">
+					<h5 class="item-validity">Validity: 15 Day</h5>
+					<h5 class="item-data">Data: 5 GB</h5>
+					<p>Data package: widely used, has a long usage time...</p>
+					<div class="item-data_bottom">
+						<a href="">View details</a>
+						<p class="data_bottom_price">US $18.0</p>
+					</div>
+				</li>
+				<li class="item">
+					<h5 class="item-validity">Validity: 15 Day</h5>
+					<h5 class="item-data">Data: 5 GB</h5>
+					<p>Data package: widely used, has a long usage time...</p>
+					<div class="item-data_bottom">
+						<a href="">View details</a>
+						<p class="data_bottom_price">US $18.0</p>
+					</div>
+				</li>
+				<li class="item">
+					<h5 class="item-validity">Validity: 15 Day</h5>
+					<h5 class="item-data">Data: 5 GB</h5>
+					<p>Data package: widely used, has a long usage time...</p>
+					<div class="item-data_bottom">
+						<a href="">View details</a>
+						<p class="data_bottom_price">US $18.0</p>
+					</div>
+				</li>
+				<li class="item">
+					<h5 class="item-validity">Validity: 15 Day</h5>
+					<h5 class="item-data">Data: 5 GB</h5>
+					<p>Data package: widely used, has a long usage time...</p>
+					<div class="item-data_bottom">
+						<a href="">View details</a>
+						<p class="data_bottom_price">US $18.0</p>
+					</div>
+				</li>
+				<li class="item">
+					<h5 class="item-validity">Validity: 15 Day</h5>
+					<h5 class="item-data">Data: 5 GB</h5>
+					<p>Data package: widely used, has a long usage time...</p>
+					<div class="item-data_bottom">
+						<a href="">View details</a>
+						<p class="data_bottom_price">US $18.0</p>
+					</div>
+				</li>
+			</ul>
+			<p class="loading-more">Loading more ...</p>
+		</div>
+	</div>
+
 </body>
 </html>
